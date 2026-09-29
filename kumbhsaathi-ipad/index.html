@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Mia — AI Avatar</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:100%; height:100%; background:#0f172a; overflow:hidden; font-family:monospace; }
+
+#video-container {
+  width:100%; height:100%;
+  position:relative;
+  display:flex; align-items:center; justify-content:center;
+}
+#avatar-video { width:100%; height:100%; object-fit:cover; pointer-events:none; }
+
+#alert-ring {
+  display:none; position:absolute; inset:0;
+  border:3px solid #ef4444;
+  box-shadow:0 0 28px rgba(239,68,68,0.7);
+  animation:pulse 1s ease infinite; pointer-events:none;
+}
+#listen-ring {
+  display:none; position:absolute; inset:0;
+  border:3px solid #22c55e;
+  box-shadow:0 0 28px rgba(34,197,94,0.6);
+  animation:pulse 0.8s ease infinite; pointer-events:none;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+#mic-btn {
+  position:absolute; bottom:24px; left:50%; transform:translateX(-50%);
+  width:72px; height:72px; border-radius:50%;
+  border:3px solid rgba(255,255,255,0.25);
+  background:rgba(15,23,42,0.9); cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  transition:all .2s; z-index:10;
+  box-shadow:0 4px 20px rgba(0,0,0,0.5);
+}
+#mic-btn:hover { background:rgba(30,58,138,0.95); border-color:#60a5fa; }
+#mic-btn.listening { background:rgba(21,128,61,0.95); border-color:#22c55e; box-shadow:0 0 24px rgba(34,197,94,0.5); }
+#mic-btn.thinking  { background:rgba(30,58,138,0.95); border-color:#818cf8; }
+#mic-icon { width:32px; height:32px; fill:rgba(255,255,255,0.9); }
+
+#status {
+  position:absolute; bottom:108px; left:50%; transform:translateX(-50%);
+  font-size:11px; color:rgba(255,255,255,0.6);
+  background:rgba(0,0,0,0.55); padding:4px 14px; border-radius:20px;
+  white-space:nowrap; pointer-events:none;
+}
+#transcript {
+  position:absolute; bottom:140px; left:50%; transform:translateX(-50%);
+  font-size:12px; color:#93c5fd; background:rgba(0,0,0,0.65);
+  padding:5px 16px; border-radius:20px; max-width:92%;
+  text-align:center; white-space:nowrap; overflow:hidden;
+  text-overflow:ellipsis; display:none;
+}
+</style>
+</head>
+<body>
+<div id="video-container">
+  <video id="avatar-video" autoplay playsinline></video>
+  <div id="alert-ring"></div>
+  <div id="listen-ring"></div>
+  <div id="transcript"></div>
+  <div id="status">Connecting...</div>
+  <button id="mic-btn" onclick="toggleMic()" title="Tap to speak">
+    <svg id="mic-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 1a4 4 0 0 1 4 4v7a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v7a2 2 0 0 0 4 0V5a2 2 0 0 0-2-2zm-1 17.93V23h2v-2.07A8.001 8.001 0 0 0 20 13h-2a6 6 0 0 1-12 0H4a8.001 8.001 0 0 0 7 7.93z"/>
+    </svg>
+  </button>
+</div>
+
+<script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+<script>
+let speechTokenTimer = null;
+let pendingReport = null;
+let SPEECH_REGION = null;
+
+const videoEl      = document.getElementById('avatar-video');
+const statusEl     = document.getElementById('status');
+const alertRing    = document.getElementById('alert-ring');
+const listenRing   = document.getElementById('listen-ring');
+const transcriptEl = document.getElementById('transcript');
+const micBtn       = document.getElementById('mic-btn');
+
+let synthesizer = null;
+let connected   = false;
+let speaking    = false;
+let listening   = false;
+
+// Realtime transcription
+let rtWs           = null;
+let audioCtx       = null;
+let audioProcessor = null;
+let silenceTimer   = null;
+let finalizing     = false;
+
+function setStatus(msg) { statusEl.textContent = msg; }
+function showTranscript(t) { transcriptEl.textContent = t; transcriptEl.style.display = t ? 'block' : 'none'; }
+
+function resetSilenceTimer() {
+  clearTimeout(silenceTimer);
+  silenceTimer = setTimeout(() => {
+    if (listening) stopListening();
+  }, 1800);
+}
+
+// ── Audio helpers ─────────────────────────────────────────────────────────────
+
+function float32ToInt16(float32) {
+  const int16 = new Int16Array(float32.length);
+  for (let i = 0; i < float32.length; i++) {
+    const s = Math.max(-1, Math.min(1, float32[i]));
+    int16[i] = s < 0 ? s * 32768 : s * 32767;
+  }
+  return int16;
+}
+
+// ── Realtime transcription ────────────────────────────────────────────────────
+
+async function startListening() {
+  if (listening) return;
+  listening = true;
+  finalizing = false;
+  micBtn.classList.add('listening');
+  listenRing.style.display = 'block';
+  setStatus('Listening...');
+
+  const proto = location.protocol === 'https:' ? 'wss:' : 'ws:';
+  rtWs = new WebSocket(`${proto}//${location.host}/stt-ws`);
+
+  rtWs.onopen = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+      audioCtx = new AudioContext({ sampleRate: 16000 });
+      const src = audioCtx.createMediaStreamSource(stream);
+      audioProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+      audioProcessor.onaudioprocess = (e) => {
+        if (rtWs?.readyState !== WebSocket.OPEN) return;
+        const int16 = float32ToInt16(e.inputBuffer.getChannelData(0));
+        rtWs.send(int16.buffer);
+      };
+      src.connect(audioProcessor);
+      audioProcessor.connect(audioCtx.destination);
+    } catch (e) {
+      setStatus('Mic error: ' + e.message);
+      stopListening();
+    }
+  };
+
+  rtWs.onmessage = (e) => {
+    const msg = JSON.parse(e.data);
+    if (msg.type === 'partial') {
+      setStatus(msg.text);
+      showTranscript(msg.text);
+      resetSilenceTimer();
+    } else if (msg.type === 'final') {
+      const text = msg.text.trim();
+      stopListening({ fromFinal: true });
+      if (text) handleMessage(text);
+      else setStatus('Press mic to speak');
+    }
+  };
+
+  rtWs.onclose = () => {
+    finalizing = false;
+    audioProcessor?.disconnect();
+    audioCtx?.close();
+    audioCtx = null; audioProcessor = null;
+  };
+}
+
+function stopListening(options = {}) {
+  if (!listening && !(options.fromFinal && finalizing)) return;
+  listening = false;
+  micBtn.classList.remove('listening');
+  listenRing.style.display = 'none';
+  showTranscript('');
+  clearTimeout(silenceTimer);
+
+  if (!options.fromFinal && rtWs?.readyState === WebSocket.OPEN) {
+    finalizing = true;
+    setStatus('Processing...');
+    rtWs.send('__END__');
+    setTimeout(() => {
+      if (finalizing && rtWs) {
+        finalizing = false;
+        rtWs.close();
+        rtWs = null;
+      }
+    }, 7000);
+    return;
+  }
+
+  finalizing = false;
+  if (rtWs) {
+    if (rtWs.readyState === WebSocket.OPEN) rtWs.send('__END__');
+    rtWs.close();
+    rtWs = null;
+  }
+}
+
+// ── Avatar connection ─────────────────────────────────────────────────────────
+
+async function connect() {
+  setStatus('Fetching relay token...');
+  try {
+    const iceResp = await fetch('/ice-token');
+    if (!iceResp.ok) throw new Error('ICE token failed: ' + iceResp.status);
+    const iceData = await iceResp.json();
+
+    SPEECH_REGION = iceData.speech_region || iceData.SpeechRegion || SPEECH_REGION;
+    const uris = iceData.Uris || iceData.uris || iceData.urls || iceData.Urls || [];
+    const uriArray = Array.isArray(uris) ? uris : [uris];
+    const iceServers = uriArray.length > 0
+      ? [{ urls: uriArray, username: iceData.Username || iceData.username, credential: iceData.Password || iceData.password }]
+      : [{ urls: 'stun:stun.l.google.com:19302' }];
+
+    setStatus('Connecting...');
+    const speechConfig = SpeechSDK.SpeechConfig.fromAuthorizationToken(iceData.speech_token, SPEECH_REGION);
+    speechConfig.speechSynthesisVoiceName = "en-US-AvaMultilingualNeural";
+
+    const videoFormat  = new SpeechSDK.AvatarVideoFormat();
+    videoFormat.width  = 1920;
+    videoFormat.height = 1080;
+
+    const avatarConfig = new SpeechSDK.AvatarConfig("Meg", "business", videoFormat);
+    avatarConfig.backgroundColor = "#0F172AFF";
+
+    synthesizer = new SpeechSDK.AvatarSynthesizer(speechConfig, avatarConfig);
+    clearInterval(speechTokenTimer);
+    speechTokenTimer = setInterval(async () => {
+      try {
+        const response = await fetch('/ice-token');
+        if (!response.ok) throw new Error('Token refresh failed');
+        const next = await response.json();
+        if (synthesizer) synthesizer.authorizationToken = next.speech_token;
+      } catch { setStatus('Session needs attention. Ask booth staff to reconnect.'); }
+    }, 8 * 60 * 1000);
+    synthesizer.avatarEventReceived = (s, e) => {
+      if (e.description === 'SwitchToSpeaking') {
+        speaking = true; alertRing.style.display = 'block'; setStatus('Speaking...');
+      } else if (e.description === 'SwitchToIdle' || e.description === 'TurnEnd') {
+        onIdle();
+      }
+    };
+
+    const pc = new RTCPeerConnection({ iceServers });
+    pc.ontrack = e => {
+      if (e.track.kind === 'video') {
+        videoEl.srcObject = e.streams[0];
+        videoEl.onloadedmetadata = () => videoEl.play().catch(console.error);
+      } else {
+        const a = document.createElement('audio');
+        a.autoplay = true; a.srcObject = e.streams[0]; document.body.appendChild(a);
+      }
+    };
+    pc.addTransceiver('video', { direction: 'sendrecv' });
+    pc.addTransceiver('audio', { direction: 'recvonly' });
+
+    const result = await synthesizer.startAvatarAsync(pc);
+    if (result.reason === SpeechSDK.ResultReason.SynthesizingAudioCompleted) {
+      connected = true;
+      setStatus('Press mic to speak');
+      setTimeout(() => speak("Hi, I'm Kumbh Saathi. How can I help you?"), 1500);
+    } else {
+      setStatus('Failed — ' + (result.errorDetails || ''));
+      setTimeout(connect, 8000);
+    }
+  } catch(err) {
+    setStatus('Error: ' + err.message);
+    setTimeout(connect, 8000);
+  }
+}
+
+// ── Speak ─────────────────────────────────────────────────────────────────────
+
+function speak(text) {
+  if (!synthesizer || !connected) return;
+  showTranscript('');
+  synthesizer.speakTextAsync(
+    text,
+    () => {
+      const fallbackMs = Math.max(4000, text.length * 55);
+      setTimeout(() => { if (speaking) onIdle(); }, fallbackMs);
+    },
+    err => { console.error('[MIA] speak error', err); onIdle(); }
+  );
+}
+
+function onIdle() {
+  if (!speaking) return;
+  speaking = false;
+  alertRing.style.display = 'none';
+  setStatus('Press mic to speak');
+}
+
+// ── Manual mic button ─────────────────────────────────────────────────────────
+
+function toggleMic() {
+  listening ? stopListening() : startListening();
+}
+
+// ── Chat ──────────────────────────────────────────────────────────────────────
+
+async function handleMessage(userText) {
+  showTranscript(userText);
+  setStatus('Thinking...');
+  if (!pendingReport || pendingReport.transcript !== userText) pendingReport = { transcript: userText, request_id: crypto.randomUUID() };
+  try {
+    const resp = await fetch('/booth-intake', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(pendingReport),
+    });
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.error || 'Report could not be saved');
+    pendingReport = null;
+    speak(data.reply || data.response || "Sorry, I didn't get a response.");
+  } catch(e) {
+    setStatus("Report could not be confirmed saved. Ask booth staff for help.");
+    speak("Your report could not be confirmed saved. Please ask the booth staff for help.");
+  }
+}
+
+connect();
+</script>
+</body>
+</html>

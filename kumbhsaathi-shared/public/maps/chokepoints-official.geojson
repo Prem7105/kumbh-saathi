@@ -1,0 +1,1535 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dwarka Circle / Dwarka Chowk",
+        "layer": "chokepoints_csv",
+        "location_name": "Dwarka Circle / Dwarka Chowk",
+        "category": "Traffic choke point",
+        "longitude": "73.79564",
+        "latitude": "19.98695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.79564,
+          19.98695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nashik Road-Dwarka corridor",
+        "layer": "chokepoints_csv",
+        "location_name": "Nashik Road-Dwarka corridor",
+        "category": "Traffic choke point",
+        "longitude": "73.8014105",
+        "latitude": "19.9871372"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8014105,
+          19.9871372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kathe Galli",
+        "layer": "chokepoints_csv",
+        "location_name": "Kathe Galli",
+        "category": "Traffic choke point",
+        "longitude": "73.8078",
+        "latitude": "19.9739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8078,
+          19.9739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fame Signal",
+        "layer": "chokepoints_csv",
+        "location_name": "Fame Signal",
+        "category": "Traffic choke point",
+        "longitude": "73.821",
+        "latitude": "19.9645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.821,
+          19.9645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upnagar",
+        "layer": "chokepoints_csv",
+        "location_name": "Upnagar",
+        "category": "Traffic choke point",
+        "longitude": "73.8167",
+        "latitude": "19.9717777"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8167,
+          19.9717777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upnagar Junction",
+        "layer": "chokepoints_csv",
+        "location_name": "Upnagar Junction",
+        "category": "Traffic choke point",
+        "longitude": "73.8354",
+        "latitude": "19.9549"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8354,
+          19.9549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Datta Mandir Signal",
+        "layer": "chokepoints_csv",
+        "location_name": "Datta Mandir Signal",
+        "category": "Traffic choke point",
+        "longitude": "73.8395",
+        "latitude": "19.9515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8395,
+          19.9515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dr. Ambedkar Nagar",
+        "layer": "chokepoints_csv",
+        "location_name": "Dr. Ambedkar Nagar",
+        "category": "Traffic choke point",
+        "longitude": "73.846",
+        "latitude": "19.9529"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.846,
+          19.9529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mumbai Naka",
+        "layer": "chokepoints_csv",
+        "location_name": "Mumbai Naka",
+        "category": "Traffic choke point",
+        "longitude": "73.7839866",
+        "latitude": "19.9870794"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7839866,
+          19.9870794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panchavati / Ramkund access zone",
+        "layer": "chokepoints_csv",
+        "location_name": "Panchavati / Ramkund access zone",
+        "category": "No-vehicle pressure zone",
+        "longitude": "73.79062",
+        "latitude": "20.0067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.79062,
+          20.0067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramkund",
+        "layer": "chokepoints_csv",
+        "location_name": "Ramkund",
+        "category": "No-vehicle pressure zone",
+        "longitude": "73.79062",
+        "latitude": "20.0067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.79062,
+          20.0067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Godavari Ghat approaches",
+        "layer": "chokepoints_csv",
+        "location_name": "Godavari Ghat approaches",
+        "category": "No-vehicle pressure zone",
+        "longitude": "73.7902",
+        "latitude": "20.0064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7902,
+          20.0064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nashik Road Railway Station",
+        "layer": "chokepoints_csv",
+        "location_name": "Nashik Road Railway Station",
+        "category": "Transfer node",
+        "longitude": "73.84059",
+        "latitude": "19.94884"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.84059,
+          19.94884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bitco Signal / Bitco Chowk",
+        "layer": "chokepoints_csv",
+        "location_name": "Bitco Signal / Bitco Chowk",
+        "category": "Traffic choke point",
+        "longitude": "73.839",
+        "latitude": "19.9497"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.839,
+          19.9497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CBS / Central Bus Stand",
+        "layer": "chokepoints_csv",
+        "location_name": "CBS / Central Bus Stand",
+        "category": "Transfer node",
+        "longitude": "73.7799",
+        "latitude": "19.9972"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7799,
+          19.9972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thakkar Bazaar / New Thakkar Bazar",
+        "layer": "chokepoints_csv",
+        "location_name": "Thakkar Bazaar / New Thakkar Bazar",
+        "category": "Transfer node",
+        "longitude": "73.7774",
+        "latitude": "19.9964"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7774,
+          19.9964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trimbak Road exit / Nashik-Trimbak Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Trimbak Road exit / Nashik-Trimbak Road",
+        "category": "Traffic choke point",
+        "longitude": "73.6615256",
+        "latitude": "19.9663708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6615256,
+          19.9663708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ABB Circle / ABB Signal",
+        "layer": "chokepoints_csv",
+        "location_name": "ABB Circle / ABB Signal",
+        "category": "Traffic choke point",
+        "longitude": "73.7505",
+        "latitude": "20.0029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7505,
+          20.0029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adgaon",
+        "layer": "chokepoints_csv",
+        "location_name": "Adgaon",
+        "category": "Traffic choke point",
+        "longitude": "73.4130156",
+        "latitude": "20.0251185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.4130156,
+          20.0251185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jatra Hotel",
+        "layer": "chokepoints_csv",
+        "location_name": "Jatra Hotel",
+        "category": "Traffic choke point",
+        "longitude": "73.8235",
+        "latitude": "20.0358"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8235,
+          20.0358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amrutdham",
+        "layer": "chokepoints_csv",
+        "location_name": "Amrutdham",
+        "category": "Traffic choke point",
+        "longitude": "73.8206889",
+        "latitude": "20.0240143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8206889,
+          20.0240143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "K.K. Wagh College / K.K. Wagh belt",
+        "layer": "chokepoints_csv",
+        "location_name": "K.K. Wagh College / K.K. Wagh belt",
+        "category": "Traffic choke point",
+        "longitude": "73.8219246",
+        "latitude": "20.0134117"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8219246,
+          20.0134117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canada Corner",
+        "layer": "chokepoints_csv",
+        "location_name": "Canada Corner",
+        "category": "Traffic choke point",
+        "longitude": "73.769685",
+        "latitude": "20.0025076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.769685,
+          20.0025076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gangapur Naka",
+        "layer": "chokepoints_csv",
+        "location_name": "Gangapur Naka",
+        "category": "Traffic choke point",
+        "longitude": "73.7638",
+        "latitude": "20.0078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7638,
+          20.0078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jehan Circle",
+        "layer": "chokepoints_csv",
+        "location_name": "Jehan Circle",
+        "category": "Traffic choke point",
+        "longitude": "73.7592",
+        "latitude": "20.0028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7592,
+          20.0028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashok Stambh",
+        "layer": "chokepoints_csv",
+        "location_name": "Ashok Stambh",
+        "category": "Traffic choke point",
+        "longitude": "73.7848996",
+        "latitude": "20.006844"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7848996,
+          20.006844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramsetu Bridge",
+        "layer": "chokepoints_csv",
+        "location_name": "Ramsetu Bridge",
+        "category": "Traffic choke point",
+        "longitude": "73.789",
+        "latitude": "20.0082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.789,
+          20.0082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dahipul",
+        "layer": "chokepoints_csv",
+        "location_name": "Dahipul",
+        "category": "Traffic choke point",
+        "longitude": "73.786",
+        "latitude": "20.0025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.786,
+          20.0025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delhi Darwaja",
+        "layer": "chokepoints_csv",
+        "location_name": "Delhi Darwaja",
+        "category": "Traffic choke point",
+        "longitude": "73.7875",
+        "latitude": "20.0055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7875,
+          20.0055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nandur Naka",
+        "layer": "chokepoints_csv",
+        "location_name": "Nandur Naka",
+        "category": "Traffic choke point",
+        "longitude": "73.831",
+        "latitude": "20.0048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.831,
+          20.0048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Janardan Swami Bridge",
+        "layer": "chokepoints_csv",
+        "location_name": "Sant Janardan Swami Bridge",
+        "category": "Traffic choke point",
+        "longitude": "73.8173",
+        "latitude": "20.0019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8173,
+          20.0019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jail Road / Currency Note Press belt",
+        "layer": "chokepoints_csv",
+        "location_name": "Jail Road / Currency Note Press belt",
+        "category": "Traffic choke point",
+        "longitude": "73.838949",
+        "latitude": "19.9647084"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.838949,
+          19.9647084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kulkarni Garden to Sadhu Vaswani Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Kulkarni Garden to Sadhu Vaswani Road",
+        "category": "Parking",
+        "longitude": "73.7695",
+        "latitude": "20.0045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7695,
+          20.0045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kulkarni Garden to BSNL Office",
+        "layer": "chokepoints_csv",
+        "location_name": "Kulkarni Garden to BSNL Office",
+        "category": "Parking",
+        "longitude": "73.773",
+        "latitude": "20.0038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.773,
+          20.0038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jyoti Store-Rishikesh Hospital-Gangapur Naka",
+        "layer": "chokepoints_csv",
+        "location_name": "Jyoti Store-Rishikesh Hospital-Gangapur Naka",
+        "category": "Parking",
+        "longitude": "73.7655",
+        "latitude": "20.0073"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7655,
+          20.0073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pramod Mahajan Park Entrance",
+        "layer": "chokepoints_csv",
+        "location_name": "Pramod Mahajan Park Entrance",
+        "category": "Parking",
+        "longitude": "73.8306054",
+        "latitude": "20.0231553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8306054,
+          20.0231553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gangapur Naka to Jehan Circle",
+        "layer": "chokepoints_csv",
+        "location_name": "Gangapur Naka to Jehan Circle",
+        "category": "Parking",
+        "longitude": "73.7615",
+        "latitude": "20.0053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7615,
+          20.0053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jehan Circle to Guruji Hospital",
+        "layer": "chokepoints_csv",
+        "location_name": "Jehan Circle to Guruji Hospital",
+        "category": "Parking",
+        "longitude": "73.7584",
+        "latitude": "20.002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7584,
+          20.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jehan Circle to ABB Circle",
+        "layer": "chokepoints_csv",
+        "location_name": "Jehan Circle to ABB Circle",
+        "category": "Parking",
+        "longitude": "73.7548",
+        "latitude": "20.0028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7548,
+          20.0028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guruji Hospital to Pipeline Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Guruji Hospital to Pipeline Road",
+        "category": "Parking",
+        "longitude": "73.7561",
+        "latitude": "20.0031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7561,
+          20.0031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Modak Point to Khadkali Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Modak Point to Khadkali Road",
+        "category": "Parking",
+        "longitude": "73.7854",
+        "latitude": "19.9972"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7854,
+          19.9972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thattenagar Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Thattenagar Road",
+        "category": "Parking",
+        "longitude": "73.7678",
+        "latitude": "20.0007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7678,
+          20.0007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Behind Kulkarni Udyan",
+        "layer": "chokepoints_csv",
+        "location_name": "Behind Kulkarni Udyan",
+        "category": "Parking",
+        "longitude": "73.77",
+        "latitude": "20.0042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.77,
+          20.0042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shraddha Petrol Pump to Bestside Mall",
+        "layer": "chokepoints_csv",
+        "location_name": "Shraddha Petrol Pump to Bestside Mall",
+        "category": "Parking",
+        "longitude": "73.7615",
+        "latitude": "19.9988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7615,
+          19.9988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CBS to Shalimar",
+        "layer": "chokepoints_csv",
+        "location_name": "CBS to Shalimar",
+        "category": "Parking",
+        "longitude": "73.7836",
+        "latitude": "19.9992"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7836,
+          19.9992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canada Corner to Vise Mala",
+        "layer": "chokepoints_csv",
+        "location_name": "Canada Corner to Vise Mala",
+        "category": "Parking",
+        "longitude": "73.774",
+        "latitude": "20.0035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.774,
+          20.0035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gadge Maharaj Bridge to Talakuteshwar",
+        "layer": "chokepoints_csv",
+        "location_name": "Gadge Maharaj Bridge to Talakuteshwar",
+        "category": "Parking",
+        "longitude": "73.792",
+        "latitude": "20.0057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.792,
+          20.0057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Model Colony Chowk to Bhosla Gate",
+        "layer": "chokepoints_csv",
+        "location_name": "Model Colony Chowk to Bhosla Gate",
+        "category": "Parking",
+        "longitude": "73.767",
+        "latitude": "20.0047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.767,
+          20.0047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pandit Colony Palika Building",
+        "layer": "chokepoints_csv",
+        "location_name": "Pandit Colony Palika Building",
+        "category": "Parking",
+        "longitude": "73.7742",
+        "latitude": "20.0005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7742,
+          20.0005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shalimar to Nehru Garden",
+        "layer": "chokepoints_csv",
+        "location_name": "Shalimar to Nehru Garden",
+        "category": "Parking",
+        "longitude": "73.7863",
+        "latitude": "20.001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7863,
+          20.001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HDFC Chowk to MSEB Office",
+        "layer": "chokepoints_csv",
+        "location_name": "HDFC Chowk to MSEB Office",
+        "category": "Parking",
+        "longitude": "73.773",
+        "latitude": "20.0003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.773,
+          20.0003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chhatrapati Shivaji Statue to Dr. Ambedkar Statue, Nashik Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Chhatrapati Shivaji Statue to Dr. Ambedkar Statue, Nashik Road",
+        "category": "Parking",
+        "longitude": "73.8409",
+        "latitude": "19.9521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8409,
+          19.9521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mahatma Gandhi Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Mahatma Gandhi Road",
+        "category": "Parking",
+        "longitude": "73.784",
+        "latitude": "20.0004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.784,
+          20.0004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canada Corner to Panasonic Gallery",
+        "layer": "chokepoints_csv",
+        "location_name": "Canada Corner to Panasonic Gallery",
+        "category": "Parking",
+        "longitude": "73.7755",
+        "latitude": "20.0029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7755,
+          20.0029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bitco Signal to Mahatma Gandhi Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Bitco Signal to Mahatma Gandhi Road",
+        "category": "Parking",
+        "longitude": "73.8408",
+        "latitude": "19.9491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8408,
+          19.9491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jehan Circle to Nelinkar Circle",
+        "layer": "chokepoints_csv",
+        "location_name": "Jehan Circle to Nelinkar Circle",
+        "category": "Parking",
+        "longitude": "73.757",
+        "latitude": "20.002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.757,
+          20.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shaheed Circle to Model Colony Circle",
+        "layer": "chokepoints_csv",
+        "location_name": "Shaheed Circle to Model Colony Circle",
+        "category": "Parking",
+        "longitude": "73.7675",
+        "latitude": "20.0042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7675,
+          20.0042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Veterinary Clinic",
+        "layer": "chokepoints_csv",
+        "location_name": "Veterinary Clinic",
+        "category": "Parking",
+        "longitude": "73.7866",
+        "latitude": "19.9975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7866,
+          19.9975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BD Bhalekar School Ground",
+        "layer": "chokepoints_csv",
+        "location_name": "BD Bhalekar School Ground",
+        "category": "Parking",
+        "longitude": "73.7812",
+        "latitude": "19.9987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7812,
+          19.9987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anna Shastri Main Road",
+        "layer": "chokepoints_csv",
+        "location_name": "Anna Shastri Main Road",
+        "category": "Parking",
+        "longitude": "73.8378",
+        "latitude": "19.951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8378,
+          19.951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Angora Complex",
+        "layer": "chokepoints_csv",
+        "location_name": "Angora Complex",
+        "category": "Parking",
+        "longitude": "73.778",
+        "latitude": "20.0002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.778,
+          20.0002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shatabdi Hospital",
+        "layer": "chokepoints_csv",
+        "location_name": "Shatabdi Hospital",
+        "category": "Parking",
+        "longitude": "73.7840439",
+        "latitude": "19.988147"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7840439,
+          19.988147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rajur Bahula",
+        "layer": "chokepoints_csv",
+        "location_name": "Rajur Bahula",
+        "category": "Outer parking",
+        "longitude": "73.673",
+        "latitude": "19.946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.673,
+          19.946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dugaon Phata",
+        "layer": "chokepoints_csv",
+        "location_name": "Dugaon Phata",
+        "category": "Outer parking",
+        "longitude": "73.719",
+        "latitude": "20.031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.719,
+          20.031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thakkar Maidan",
+        "layer": "chokepoints_csv",
+        "location_name": "Thakkar Maidan",
+        "category": "Outer parking",
+        "longitude": "73.7725",
+        "latitude": "20.004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7725,
+          20.004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adgaon outer parking",
+        "layer": "chokepoints_csv",
+        "location_name": "Adgaon outer parking",
+        "category": "Outer parking",
+        "longitude": "73.838",
+        "latitude": "20.042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.838,
+          20.042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mhasrul",
+        "layer": "chokepoints_csv",
+        "location_name": "Mhasrul",
+        "category": "Outer parking",
+        "longitude": "73.8049507",
+        "latitude": "20.0463365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8049507,
+          20.0463365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madsangavi",
+        "layer": "chokepoints_csv",
+        "location_name": "Madsangavi",
+        "category": "Outer parking",
+        "longitude": "73.883",
+        "latitude": "20.066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.883,
+          20.066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chincholi",
+        "layer": "chokepoints_csv",
+        "location_name": "Chincholi",
+        "category": "Outer parking",
+        "longitude": "73.9094495",
+        "latitude": "19.8975833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9094495,
+          19.8975833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Khambale",
+        "layer": "chokepoints_csv",
+        "location_name": "Khambale",
+        "category": "Outer parking",
+        "longitude": "73.632102",
+        "latitude": "19.9548411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.632102,
+          19.9548411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pahine",
+        "layer": "chokepoints_csv",
+        "location_name": "Pahine",
+        "category": "Outer parking",
+        "longitude": "73.5527429",
+        "latitude": "19.8993936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5527429,
+          19.8993936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talwade",
+        "layer": "chokepoints_csv",
+        "location_name": "Talwade",
+        "category": "Outer parking",
+        "longitude": "73.5553417",
+        "latitude": "19.9736973"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5553417,
+          19.9736973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mahamarg Bus Stand",
+        "layer": "chokepoints_csv",
+        "location_name": "Mahamarg Bus Stand",
+        "category": "Transfer node",
+        "longitude": "73.7829469",
+        "latitude": "19.9888004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7829469,
+          19.9888004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Satpur Bus Stand",
+        "layer": "chokepoints_csv",
+        "location_name": "Satpur Bus Stand",
+        "category": "Transfer node",
+        "longitude": "73.7319231",
+        "latitude": "19.9912276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7319231,
+          19.9912276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sharad Chandra Pawar Market",
+        "layer": "chokepoints_csv",
+        "location_name": "Sharad Chandra Pawar Market",
+        "category": "Transfer node",
+        "longitude": "73.7905",
+        "latitude": "20.0185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7905,
+          20.0185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nilgiri Baug",
+        "layer": "chokepoints_csv",
+        "location_name": "Nilgiri Baug",
+        "category": "Transfer node",
+        "longitude": "73.8176",
+        "latitude": "20.0132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8176,
+          20.0132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lakshmi Narayan Trust Hanuman Nagar",
+        "layer": "chokepoints_csv",
+        "location_name": "Lakshmi Narayan Trust Hanuman Nagar",
+        "category": "Transfer node",
+        "longitude": "73.8038",
+        "latitude": "20.0224"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8038,
+          20.0224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinnar Bypass Market Yard",
+        "layer": "chokepoints_csv",
+        "location_name": "Sinnar Bypass Market Yard",
+        "category": "Transfer node",
+        "longitude": "73.858",
+        "latitude": "19.932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.858,
+          19.932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brahma Valley",
+        "layer": "chokepoints_csv",
+        "location_name": "Brahma Valley",
+        "category": "Transfer node",
+        "longitude": "73.574",
+        "latitude": "19.9264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.574,
+          19.9264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pegalwadi",
+        "layer": "chokepoints_csv",
+        "location_name": "Pegalwadi",
+        "category": "Transfer node",
+        "longitude": "73.5537531",
+        "latitude": "19.9393065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5537531,
+          19.9393065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peth Road parking belt",
+        "layer": "chokepoints_csv",
+        "location_name": "Peth Road parking belt",
+        "category": "Parking belt",
+        "longitude": "73.7775",
+        "latitude": "20.0305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7775,
+          20.0305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dindori Road parking belt",
+        "layer": "chokepoints_csv",
+        "location_name": "Dindori Road parking belt",
+        "category": "Parking belt",
+        "longitude": "73.8032903",
+        "latitude": "20.0344735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8032903,
+          20.0344735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhule Road parking belt",
+        "layer": "chokepoints_csv",
+        "location_name": "Dhule Road parking belt",
+        "category": "Parking belt",
+        "longitude": "73.833",
+        "latitude": "20.04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.833,
+          20.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pune Road parking belt",
+        "layer": "chokepoints_csv",
+        "location_name": "Pune Road parking belt",
+        "category": "Parking belt",
+        "longitude": "73.8592833",
+        "latitude": "18.7572012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8592833,
+          18.7572012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mumbai Road parking belt",
+        "layer": "chokepoints_csv",
+        "location_name": "Mumbai Road parking belt",
+        "category": "Parking belt",
+        "longitude": "73.8638745",
+        "latitude": "20.0361024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8638745,
+          20.0361024
+        ]
+      }
+    }
+  ]
+}

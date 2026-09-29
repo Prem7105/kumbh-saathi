@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adgaon Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.826945,
+          20.015486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AmbadPolice station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.763443,
+          19.96586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhadrakali Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.789208,
+          19.997799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devlali camp Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.826855,
+          19.905098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gangapur Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.75007,
+          20.014267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indiranagar Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.778583,
+          19.974576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mhasrul Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.802388,
+          20.032542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mumbai naka Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.783917,
+          19.987591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panchavati Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.796739,
+          20.015643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarkarwada Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.779772,
+          20.00562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Satpur Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.742909,
+          19.991434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upnagar Police station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.824402,
+          19.967381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nashik Road Police Station",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8397366,
+          19.9528351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MIDC Chunchale police chowki",
+        "layer": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7368018,
+          19.9506575
+        ]
+      }
+    }
+  ]
+}

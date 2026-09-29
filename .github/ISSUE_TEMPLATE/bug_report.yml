@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a reproducible problem using synthetic data only.
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: Do not include real case details, phone numbers, passwords, or API keys. For security vulnerabilities, read SECURITY.md.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component
+      options:
+        - Command center
+        - Volunteer mobile app
+        - WhatsApp bot
+        - Voice booth
+        - Shared database
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include expected behavior, actual behavior, and synthetic input.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser/device, Node/Python version, and commit if known.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted logs or screenshots

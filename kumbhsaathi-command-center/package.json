@@ -1,0 +1,33 @@
+{
+  "name": "kumbh-command-center",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "@tmcw/togeojson": "^7.1.2",
+    "@types/leaflet": "^1.9.21",
+    "@xmldom/xmldom": "^0.9.10",
+    "leaflet": "^1.9.4",
+    "maplibre-gl": "^5.24.0",
+    "next": "16.2.9",
+    "ol": "^10.9.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-leaflet": "^5.0.0",
+    "togeojson": "^0.16.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

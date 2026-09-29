@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.pdf binary
+# Preserve upstream geospatial exports without whitespace lint noise.
+*.kml -whitespace

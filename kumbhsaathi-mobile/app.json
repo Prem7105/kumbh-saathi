@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Kumbh Saathi Volunteer",
+    "slug": "kumbhsaathi-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Kumbh Saathi uses your location to send emergency alerts and report found or missing cases to the command center."
+      }
+    },
+    "android": {
+      "package": "com.kumbhsaathi.volunteer",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

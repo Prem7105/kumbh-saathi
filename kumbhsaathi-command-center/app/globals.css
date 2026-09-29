@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+@import "maplibre-gl/dist/maplibre-gl.css";
+@import "ol/ol.css";
+
+:root {
+  --orange: #f97316;
+  --black: #0a0a0a;
+  --white: #fafafa;
+  --background: #fafafa;
+  --foreground: #0a0a0a;
+}
+
+body {
+  color: var(--foreground);
+  font-family: var(--font-dm), "DM Sans", system-ui, -apple-system, sans-serif;
+}
+
+.neo-card {
+  border: 2px solid #0a0a0a;
+  box-shadow: 4px 4px 0px 0px #0a0a0a;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.neo-btn {
+  border: 2px solid #0a0a0a;
+  box-shadow: 3px 3px 0px 0px #0a0a0a;
+  transition: all 0.1s ease;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.neo-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #0a0a0a;
+}
+
+.neo-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.neo-input {
+  border: 2px solid #0a0a0a;
+  outline: none;
+  background: white;
+  padding: 8px 12px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.neo-input:focus {
+  box-shadow: 3px 3px 0px 0px #f97316;
+}
+
+.status-badge {
+  border: 2px solid #0a0a0a;
+  font-weight: 700;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  border: 2px solid transparent;
+  transition: all 0.1s;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar-link:hover {
+  border-color: #0a0a0a;
+  background: #f97316;
+  color: white;
+}
+
+.sidebar-link.active {
+  background: #f97316;
+  border-color: #0a0a0a;
+  color: white;
+  box-shadow: 3px 3px 0 #0a0a0a;
+}

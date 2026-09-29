@@ -1,0 +1,1620 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.79564,
+          19.98695
+        ]
+      },
+      "properties": {
+        "location_name": "Dwarka Circle / Dwarka Chowk",
+        "category": "Traffic choke point",
+        "risk_level": "very high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://www.freepressjournal.in/pune/centre-approves-214-crore-fornashiks-dwarka-chowk-upgrade",
+        "note": "Vital artery connecting Mumbai-Agra NH, Nashik Road, Panchavati, city centre and industrial routes; specifically upgraded for Kumbh readiness.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: very high | Source: https://www.freepressjournal.in/pune/centre-approves-214-crore-fornashiks-dwarka-chowk-upgrade | Note: Vital artery connecting Mumbai-Agra NH, Nashik Road, Panchavati, city centre and industrial routes; specifically upgraded for Kumbh readiness."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7774,
+          19.9964
+        ]
+      },
+      "properties": {
+        "location_name": "Thakkar Bazaar / New Thakkar Bazar",
+        "category": "Transfer node",
+        "risk_level": "high",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historic Kumbh bus movement node near city core.",
+        "kml_description": "Category: Transfer node | Status: historical route reference | Risk: high | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historic Kumbh bus movement node near city core."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7875,
+          20.0055
+        ]
+      },
+      "properties": {
+        "location_name": "Delhi Darwaja",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historic approach to Rokdoba Maidan / old-city crowd movement.",
+        "kml_description": "Category: Traffic choke point | Status: historical route reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historic approach to Rokdoba Maidan / old-city crowd movement."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8014105,
+          19.9871372
+        ]
+      },
+      "properties": {
+        "location_name": "Nashik Road-Dwarka corridor",
+        "category": "Traffic choke point",
+        "risk_level": "very high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Key commuter and pilgrim corridor where minor breakdowns can create long tailbacks.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: very high | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Key commuter and pilgrim corridor where minor breakdowns can create long tailbacks."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5537531,
+          19.9393065
+        ]
+      },
+      "properties": {
+        "location_name": "Pegalwadi",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8078,
+          19.9739
+        ]
+      },
+      "properties": {
+        "location_name": "Kathe Galli",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Named pinch point on Nashik Road-Dwarka stretch.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: high | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Named pinch point on Nashik Road-Dwarka stretch."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.821,
+          19.9645
+        ]
+      },
+      "properties": {
+        "location_name": "Fame Signal",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Named signal choke point on Nashik Road-Dwarka stretch.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: high | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Named signal choke point on Nashik Road-Dwarka stretch."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8167,
+          19.9717777
+        ]
+      },
+      "properties": {
+        "location_name": "Upnagar",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Named congestion area on Nashik Road-Dwarka stretch.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: high | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Named congestion area on Nashik Road-Dwarka stretch."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8354,
+          19.9549
+        ]
+      },
+      "properties": {
+        "location_name": "Upnagar Junction",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Named congestion junction on Nashik Road-Dwarka stretch.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: high | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Named congestion junction on Nashik Road-Dwarka stretch."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8395,
+          19.9515
+        ]
+      },
+      "properties": {
+        "location_name": "Datta Mandir Signal",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Named signal choke point on Nashik Road-Dwarka stretch.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: high | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Named signal choke point on Nashik Road-Dwarka stretch."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.846,
+          19.9529
+        ]
+      },
+      "properties": {
+        "location_name": "Dr. Ambedkar Nagar",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Named congestion area on Nashik Road-Dwarka stretch.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: medium | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Named congestion area on Nashik Road-Dwarka stretch."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7839866,
+          19.9870794
+        ]
+      },
+      "properties": {
+        "location_name": "Mumbai Naka",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "analyst derived from route behavior",
+        "source_url": "https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576",
+        "note": "Likely spillover point when traffic bypasses Dwarka via Kathe Galli-Mumbai Naka.",
+        "kml_description": "Category: Traffic choke point | Status: analyst derived from route behavior | Risk: high | Source: https://infra.economictimes.indiatimes.com/news/urban-transportation/residents-cheer-10-lane-plan-of-nashik-road-dwarka-section/128244576 | Note: Likely spillover point when traffic bypasses Dwarka via Kathe Galli-Mumbai Naka."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.79062,
+          20.0067
+        ]
+      },
+      "properties": {
+        "location_name": "Panchavati / Ramkund access zone",
+        "category": "No-vehicle pressure zone",
+        "risk_level": "very high",
+        "project_status": "confirmed Kumbh pressure zone",
+        "source_url": "https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/",
+        "note": "Main sacred bathing pressure area; private vehicles expected to be shifted to outer parking on peak days.",
+        "kml_description": "Category: No-vehicle pressure zone | Status: confirmed Kumbh pressure zone | Risk: very high | Source: https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/ | Note: Main sacred bathing pressure area; private vehicles expected to be shifted to outer parking on peak days."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.79062,
+          20.0067
+        ]
+      },
+      "properties": {
+        "location_name": "Ramkund",
+        "category": "No-vehicle pressure zone",
+        "risk_level": "very high",
+        "project_status": "confirmed Kumbh pressure zone",
+        "source_url": "https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/",
+        "note": "Core bathing site and crowd-density hotspot.",
+        "kml_description": "Category: No-vehicle pressure zone | Status: confirmed Kumbh pressure zone | Risk: very high | Source: https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/ | Note: Core bathing site and crowd-density hotspot."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7902,
+          20.0064
+        ]
+      },
+      "properties": {
+        "location_name": "Godavari Ghat approaches",
+        "category": "No-vehicle pressure zone",
+        "risk_level": "very high",
+        "project_status": "confirmed Kumbh pressure zone",
+        "source_url": "https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/",
+        "note": "Cluster of bathing-ghat approaches needing pedestrian segregation and emergency access.",
+        "kml_description": "Category: No-vehicle pressure zone | Status: confirmed Kumbh pressure zone | Risk: very high | Source: https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/ | Note: Cluster of bathing-ghat approaches needing pedestrian segregation and emergency access."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.84059,
+          19.94884
+        ]
+      },
+      "properties": {
+        "location_name": "Nashik Road Railway Station",
+        "category": "Transfer node",
+        "risk_level": "very high",
+        "project_status": "confirmed rail planning",
+        "source_url": "https://www.devdiscourse.com/article/business/3860652-comprehensive-plan-unveiled-for-crowd-management-at-kumbh-mela",
+        "note": "Major railway arrival node; Central Railway preparing holding areas, CCTV and announcements.",
+        "kml_description": "Category: Transfer node | Status: confirmed rail planning | Risk: very high | Source: https://www.devdiscourse.com/article/business/3860652-comprehensive-plan-unveiled-for-crowd-management-at-kumbh-mela | Note: Major railway arrival node; Central Railway preparing holding areas, CCTV and announcements."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.839,
+          19.9497
+        ]
+      },
+      "properties": {
+        "location_name": "Bitco Signal / Bitco Chowk",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "black spot / parking route",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf",
+        "note": "Station-side control point and black-spot reference near Nashik Road.",
+        "kml_description": "Category: Traffic choke point | Status: black spot / parking route | Risk: high | Source: https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf | Note: Station-side control point and black-spot reference near Nashik Road."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7799,
+          19.9972
+        ]
+      },
+      "properties": {
+        "location_name": "CBS / Central Bus Stand",
+        "category": "Transfer node",
+        "risk_level": "high",
+        "project_status": "parking / transfer planning",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "Inner-city transfer and parking corridor around CBS-Shalimar.",
+        "kml_description": "Category: Transfer node | Status: parking / transfer planning | Risk: high | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: Inner-city transfer and parking corridor around CBS-Shalimar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6615256,
+          19.9663708
+        ]
+      },
+      "properties": {
+        "location_name": "Trimbak Road exit / Nashik-Trimbak Road",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 project",
+        "source_url": "https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/",
+        "note": "Primary link from Nashik to Trimbakeshwar; expansion planned for Kumbh readiness.",
+        "kml_description": "Category: Traffic choke point | Status: confirmed 2027 project | Risk: high | Source: https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/ | Note: Primary link from Nashik to Trimbakeshwar; expansion planned for Kumbh readiness."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7505,
+          20.0029
+        ]
+      },
+      "properties": {
+        "location_name": "ABB Circle / ABB Signal",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "black spot / route reference",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf",
+        "note": "Important western-side control point on Trimbak/Satpur movement.",
+        "kml_description": "Category: Traffic choke point | Status: black spot / route reference | Risk: high | Source: https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf | Note: Important western-side control point on Trimbak/Satpur movement."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.4130156,
+          20.0251185
+        ]
+      },
+      "properties": {
+        "location_name": "Adgaon",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "black spot / historical parking",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf",
+        "note": "Northern approach and historic outer parking belt.",
+        "kml_description": "Category: Traffic choke point | Status: black spot / historical parking | Risk: high | Source: https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf | Note: Northern approach and historic outer parking belt."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8235,
+          20.0358
+        ]
+      },
+      "properties": {
+        "location_name": "Jatra Hotel",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "black spot reference",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf",
+        "note": "Northern approach black-spot area to monitor for pilgrim bus inflow.",
+        "kml_description": "Category: Traffic choke point | Status: black spot reference | Risk: medium | Source: https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf | Note: Northern approach black-spot area to monitor for pilgrim bus inflow."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8206889,
+          20.0240143
+        ]
+      },
+      "properties": {
+        "location_name": "Amrutdham",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "black spot reference",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf",
+        "note": "Northern approach black-spot area.",
+        "kml_description": "Category: Traffic choke point | Status: black spot reference | Risk: medium | Source: https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf | Note: Northern approach black-spot area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8219246,
+          20.0134117
+        ]
+      },
+      "properties": {
+        "location_name": "K.K. Wagh College / K.K. Wagh belt",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "black spot / route reference",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf",
+        "note": "Northern/eastern approach and route return reference.",
+        "kml_description": "Category: Traffic choke point | Status: black spot / route reference | Risk: medium | Source: https://cdnbbsr.s3waas.gov.in/s35dec707028b05bcbd3a1db5640f842c5/uploads/2025/01/202501241645153799.pdf | Note: Northern/eastern approach and route return reference."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.769685,
+          20.0025076
+        ]
+      },
+      "properties": {
+        "location_name": "Canada Corner",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "parking corridor",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "Parking and movement corridor around Canada Corner.",
+        "kml_description": "Category: Traffic choke point | Status: parking corridor | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: Parking and movement corridor around Canada Corner."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7638,
+          20.0078
+        ]
+      },
+      "properties": {
+        "location_name": "Gangapur Naka",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "parking corridor",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "Parking and local movement corridor.",
+        "kml_description": "Category: Traffic choke point | Status: parking corridor | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: Parking and local movement corridor."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7592,
+          20.0028
+        ]
+      },
+      "properties": {
+        "location_name": "Jehan Circle",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "parking corridor",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "Parking junction feeding ABB/Gangapur belts.",
+        "kml_description": "Category: Traffic choke point | Status: parking corridor | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: Parking junction feeding ABB/Gangapur belts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7848996,
+          20.006844
+        ]
+      },
+      "properties": {
+        "location_name": "Ashok Stambh",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historic Kumbh route point toward Panchavati/Ramkund.",
+        "kml_description": "Category: Traffic choke point | Status: historical route reference | Risk: high | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historic Kumbh route point toward Panchavati/Ramkund."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.789,
+          20.0082
+        ]
+      },
+      "properties": {
+        "location_name": "Ramsetu Bridge",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Bridge crossing on historic Kumbh route to Gandhi Tank/Ramkund side.",
+        "kml_description": "Category: Traffic choke point | Status: historical route reference | Risk: high | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Bridge crossing on historic Kumbh route to Gandhi Tank/Ramkund side."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.786,
+          20.0025
+        ]
+      },
+      "properties": {
+        "location_name": "Dahipul",
+        "category": "Traffic choke point",
+        "risk_level": "high",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Core-city pinch point on historic Trimbak-side route into Panchavati.",
+        "kml_description": "Category: Traffic choke point | Status: historical route reference | Risk: high | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Core-city pinch point on historic Trimbak-side route into Panchavati."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.831,
+          20.0048
+        ]
+      },
+      "properties": {
+        "location_name": "Nandur Naka",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Eastern approach route for Aurangabad/Odha inflow.",
+        "kml_description": "Category: Traffic choke point | Status: historical route reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Eastern approach route for Aurangabad/Odha inflow."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8173,
+          20.0019
+        ]
+      },
+      "properties": {
+        "location_name": "Sant Janardan Swami Bridge",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Bridge crossing on eastern and Nashik Road Kumbh routes.",
+        "kml_description": "Category: Traffic choke point | Status: historical route reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Bridge crossing on eastern and Nashik Road Kumbh routes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.838949,
+          19.9647084
+        ]
+      },
+      "properties": {
+        "location_name": "Jail Road / Currency Note Press belt",
+        "category": "Traffic choke point",
+        "risk_level": "medium",
+        "project_status": "historical route reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historic movement route from Nashik Road/Sinnar side toward ghats.",
+        "kml_description": "Category: Traffic choke point | Status: historical route reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historic movement route from Nashik Road/Sinnar side toward ghats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7695,
+          20.0045
+        ]
+      },
+      "properties": {
+        "location_name": "Kulkarni Garden to Sadhu Vaswani Road",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.773,
+          20.0038
+        ]
+      },
+      "properties": {
+        "location_name": "Kulkarni Garden to BSNL Office",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7655,
+          20.0073
+        ]
+      },
+      "properties": {
+        "location_name": "Jyoti Store-Rishikesh Hospital-Gangapur Naka",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8306054,
+          20.0231553
+        ]
+      },
+      "properties": {
+        "location_name": "Pramod Mahajan Park Entrance",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7615,
+          20.0053
+        ]
+      },
+      "properties": {
+        "location_name": "Gangapur Naka to Jehan Circle",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7584,
+          20.002
+        ]
+      },
+      "properties": {
+        "location_name": "Jehan Circle to Guruji Hospital",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7548,
+          20.0028
+        ]
+      },
+      "properties": {
+        "location_name": "Jehan Circle to ABB Circle",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7561,
+          20.0031
+        ]
+      },
+      "properties": {
+        "location_name": "Guruji Hospital to Pipeline Road",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7854,
+          19.9972
+        ]
+      },
+      "properties": {
+        "location_name": "Modak Point to Khadkali Road",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7678,
+          20.0007
+        ]
+      },
+      "properties": {
+        "location_name": "Thattenagar Road",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.77,
+          20.0042
+        ]
+      },
+      "properties": {
+        "location_name": "Behind Kulkarni Udyan",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7615,
+          19.9988
+        ]
+      },
+      "properties": {
+        "location_name": "Shraddha Petrol Pump to Bestside Mall",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7836,
+          19.9992
+        ]
+      },
+      "properties": {
+        "location_name": "CBS to Shalimar",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.774,
+          20.0035
+        ]
+      },
+      "properties": {
+        "location_name": "Canada Corner to Vise Mala",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.792,
+          20.0057
+        ]
+      },
+      "properties": {
+        "location_name": "Gadge Maharaj Bridge to Talakuteshwar",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.767,
+          20.0047
+        ]
+      },
+      "properties": {
+        "location_name": "Model Colony Chowk to Bhosla Gate",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7742,
+          20.0005
+        ]
+      },
+      "properties": {
+        "location_name": "Pandit Colony Palika Building",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7863,
+          20.001
+        ]
+      },
+      "properties": {
+        "location_name": "Shalimar to Nehru Garden",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.773,
+          20.0003
+        ]
+      },
+      "properties": {
+        "location_name": "HDFC Chowk to MSEB Office",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8409,
+          19.9521
+        ]
+      },
+      "properties": {
+        "location_name": "Chhatrapati Shivaji Statue to Dr. Ambedkar Statue, Nashik Road",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.784,
+          20.0004
+        ]
+      },
+      "properties": {
+        "location_name": "Mahatma Gandhi Road",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7755,
+          20.0029
+        ]
+      },
+      "properties": {
+        "location_name": "Canada Corner to Panasonic Gallery",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8408,
+          19.9491
+        ]
+      },
+      "properties": {
+        "location_name": "Bitco Signal to Mahatma Gandhi Road",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.757,
+          20.002
+        ]
+      },
+      "properties": {
+        "location_name": "Jehan Circle to Nelinkar Circle",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7675,
+          20.0042
+        ]
+      },
+      "properties": {
+        "location_name": "Shaheed Circle to Model Colony Circle",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7866,
+          19.9975
+        ]
+      },
+      "properties": {
+        "location_name": "Veterinary Clinic",
+        "category": "Parking",
+        "risk_level": "medium",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed parking corridor; exact entry/exit to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: medium | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed parking corridor; exact entry/exit to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7812,
+          19.9987
+        ]
+      },
+      "properties": {
+        "location_name": "BD Bhalekar School Ground",
+        "category": "Parking",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed off-street parking site; exact usable area/capacity to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: high | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed off-street parking site; exact usable area/capacity to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8176,
+          20.0132
+        ]
+      },
+      "properties": {
+        "location_name": "Nilgiri Baug",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8378,
+          19.951
+        ]
+      },
+      "properties": {
+        "location_name": "Anna Shastri Main Road",
+        "category": "Parking",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed off-street parking site; exact usable area/capacity to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: high | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed off-street parking site; exact usable area/capacity to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.778,
+          20.0002
+        ]
+      },
+      "properties": {
+        "location_name": "Angora Complex",
+        "category": "Parking",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed off-street parking site; exact usable area/capacity to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: high | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed off-street parking site; exact usable area/capacity to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7840439,
+          19.988147
+        ]
+      },
+      "properties": {
+        "location_name": "Shatabdi Hospital",
+        "category": "Parking",
+        "risk_level": "high",
+        "project_status": "confirmed 2027 parking list",
+        "source_url": "https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/",
+        "note": "NMC-listed off-street parking site; exact usable area/capacity to be field-verified.",
+        "kml_description": "Category: Parking | Status: confirmed 2027 parking list | Risk: high | Source: https://www.lokmattimes.com/nashik/nashik-kumbh-mela-2027-nmc-chalks-out-parking-plan-35-locations-identified-a519/ | Note: NMC-listed off-street parking site; exact usable area/capacity to be field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.673,
+          19.946
+        ]
+      },
+      "properties": {
+        "location_name": "Rajur Bahula",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.719,
+          20.031
+        ]
+      },
+      "properties": {
+        "location_name": "Dugaon Phata",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7725,
+          20.004
+        ]
+      },
+      "properties": {
+        "location_name": "Thakkar Maidan",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.838,
+          20.042
+        ]
+      },
+      "properties": {
+        "location_name": "Adgaon outer parking",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8049507,
+          20.0463365
+        ]
+      },
+      "properties": {
+        "location_name": "Mhasrul",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.883,
+          20.066
+        ]
+      },
+      "properties": {
+        "location_name": "Madsangavi",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9094495,
+          19.8975833
+        ]
+      },
+      "properties": {
+        "location_name": "Chincholi",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.632102,
+          19.9548411
+        ]
+      },
+      "properties": {
+        "location_name": "Khambale",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5527429,
+          19.8993936
+        ]
+      },
+      "properties": {
+        "location_name": "Pahine",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5553417,
+          19.9736973
+        ]
+      },
+      "properties": {
+        "location_name": "Talwade",
+        "category": "Outer parking",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical Simhastha parking reference; validate against final 2027 traffic notification.",
+        "kml_description": "Category: Outer parking | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical Simhastha parking reference; validate against final 2027 traffic notification."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7829469,
+          19.9888004
+        ]
+      },
+      "properties": {
+        "location_name": "Mahamarg Bus Stand",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7319231,
+          19.9912276
+        ]
+      },
+      "properties": {
+        "location_name": "Satpur Bus Stand",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7905,
+          20.0185
+        ]
+      },
+      "properties": {
+        "location_name": "Sharad Chandra Pawar Market",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8038,
+          20.0224
+        ]
+      },
+      "properties": {
+        "location_name": "Lakshmi Narayan Trust Hanuman Nagar",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.858,
+          19.932
+        ]
+      },
+      "properties": {
+        "location_name": "Sinnar Bypass Market Yard",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.574,
+          19.9264
+        ]
+      },
+      "properties": {
+        "location_name": "Brahma Valley",
+        "category": "Transfer node",
+        "risk_level": "medium",
+        "project_status": "historical 2015 reference",
+        "source_url": "https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/",
+        "note": "Historical inner bus stand / shuttle transfer node.",
+        "kml_description": "Category: Transfer node | Status: historical 2015 reference | Risk: medium | Source: https://kumbhmela.com/nasik-kumbh-2015/how-to-get-there/ | Note: Historical inner bus stand / shuttle transfer node."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7775,
+          20.0305
+        ]
+      },
+      "properties": {
+        "location_name": "Peth Road parking belt",
+        "category": "Parking belt",
+        "risk_level": "high",
+        "project_status": "under joint survey",
+        "source_url": "https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites",
+        "note": "Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point.",
+        "kml_description": "Category: Parking belt | Status: under joint survey | Risk: high | Source: https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites | Note: Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8032903,
+          20.0344735
+        ]
+      },
+      "properties": {
+        "location_name": "Dindori Road parking belt",
+        "category": "Parking belt",
+        "risk_level": "high",
+        "project_status": "under joint survey",
+        "source_url": "https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites",
+        "note": "Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point.",
+        "kml_description": "Category: Parking belt | Status: under joint survey | Risk: high | Source: https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites | Note: Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.833,
+          20.04
+        ]
+      },
+      "properties": {
+        "location_name": "Dhule Road parking belt",
+        "category": "Parking belt",
+        "risk_level": "high",
+        "project_status": "under joint survey",
+        "source_url": "https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites",
+        "note": "Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point.",
+        "kml_description": "Category: Parking belt | Status: under joint survey | Risk: high | Source: https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites | Note: Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8592833,
+          18.7572012
+        ]
+      },
+      "properties": {
+        "location_name": "Pune Road parking belt",
+        "category": "Parking belt",
+        "risk_level": "high",
+        "project_status": "under joint survey",
+        "source_url": "https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites",
+        "note": "Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point.",
+        "kml_description": "Category: Parking belt | Status: under joint survey | Risk: high | Source: https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites | Note: Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8638745,
+          20.0361024
+        ]
+      },
+      "properties": {
+        "location_name": "Mumbai Road parking belt",
+        "category": "Parking belt",
+        "risk_level": "high",
+        "project_status": "under joint survey",
+        "source_url": "https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites",
+        "note": "Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point.",
+        "kml_description": "Category: Parking belt | Status: under joint survey | Risk: high | Source: https://www.freepressjournal.in/pune/nashik-simhastha-2027-ntkma-orders-joint-survey-of-parking-sites | Note: Large parking parcel belt under NMC/PWD/NTKMA physical verification; use as search area, not a final point."
+      }
+    }
+  ]
+}
