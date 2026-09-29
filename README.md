@@ -124,10 +124,3 @@ Runtime controls include staff roles and row-level security, organiser-only map 
 
 See [priorities and known limitations](SETUP_AND_CHANGES.md#next-improvements-in-priority-order) for the current boundaries.
 
-## Team
-
-- **Saaheer** ? WhatsApp, volunteer app, booth integration and deployment.
-- **Ojayit** ? command center and booth frontend integration.
-- **Prem** ? presentation and pitch materials.
-
-Contributions: [CONTRIBUTING.md](CONTRIBUTING.md). No project license has been selected; third-party assets and datasets retain their respective rights.
